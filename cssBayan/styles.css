@@ -22,7 +22,24 @@ body * + * {
   margin-top: 1.5em;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
   max-width: 70vw;
   margin: 0 auto;
+}
+
+.accordion:hover .accordion-item:hover .accordion-item-content,
+.accordion .accordion-item--default .accordion-item-content {
+    max-height: 500px;
+}
+
+.accordion-item-content,
+.accordion:hover .accordion-item-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 2s ease-in-out;
 }
