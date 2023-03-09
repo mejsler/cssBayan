@@ -12,7 +12,9 @@
 }
 
 body {
-  background-color: #eee;
+  color: #fff;
+  background-color: #000;
+  line-height: 1.5;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
@@ -21,6 +23,6 @@ body * + * {
 }
 
 .container {
-  max-width: 1080px;
+  max-width: 70vw;
   margin: 0 auto;
 }
