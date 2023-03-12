@@ -109,7 +109,7 @@ h3 {
   opacity: 1;
 }
 
-.accordion input:checked ~ .accordion-item .accordion-icon {
+.accordion-item input:checked ~ .accordion-title .accordion-icon {
   transform: rotate(135deg);
 }
 
