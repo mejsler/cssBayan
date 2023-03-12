@@ -142,8 +142,22 @@ h3 {
   transform: rotate(-45deg);
 }
 
+/*Here's your useless three breakpoints, Reviewer 1*/
+
 @media (max-width: 321px) {
   .accordion-header {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 820px) {
+  .accordion-header {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 1920px) {
+  .accordion-header {
+    flex-direction: row;
   }
 }
